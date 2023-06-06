@@ -51,7 +51,7 @@ weatherForm.addEventListener('submit', (event) => {
             else
             {
                 messageOne.textContent = data.location;
-                messageTwo.textContent = data.Temperature+ ' degree Celsius, '+data.Weather_Description;
+                messageTwo.textContent = "It is "+data.Temperature+ ' degree celsius temperature. Weather type is '+data.Weather_Description + ". The Humidity is " + data.humidity;
                 console.log(data.Weather_Description)
                 // console.log(data.Temperature)
                     

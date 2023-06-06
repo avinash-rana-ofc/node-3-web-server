@@ -72,7 +72,8 @@ app.get('/weather', (req, res) => {
                 Weather_Description : forecastData.Weather_descriptions,
                 Temperature : forecastData.Temperature,
                 location,
-                address
+                address,
+                humidity : forecastData.humidity
               })
               //console.log(location);
               //console.log(forecastData)
